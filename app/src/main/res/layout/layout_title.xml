@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="65dp">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/set_home"
+        android:id="@+id/imageView_home" />
+    <RelativeLayout
+        android:id="@+id/relativelayout_nowPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/linearlayout_nowPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/now_city_pic"/>
+            <TextView
+                android:id="@+id/textView_nowPosition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="25sp"
+                android:textColor="@color/colorWhite"
+                android:text="位置"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@+id/linearlayout_nowPosition"
+            android:id="@+id/textView_update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:text="最后更新：" />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/update_pic"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/imageView_update" />
+</RelativeLayout>

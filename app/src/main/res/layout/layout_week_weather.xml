@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="近期天气"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/line_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="今天"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/week1_icon1"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <ImageView
+                android:id="@+id/week1_icon2"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <TextView
+                android:id="@+id/week1_weather"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="weather"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week1_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10℃"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week1_wind"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="wind"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week1_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4月25日"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/line_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="明天"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/week2_icon1"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <ImageView
+                android:id="@+id/week2_icon2"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <TextView
+                android:id="@+id/week2_weather"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="weather"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week2_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10℃"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week2_wind"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="wind"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week2_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4月25日"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/line_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="后天"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/week3_icon1"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <ImageView
+                android:id="@+id/week3_icon2"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <TextView
+                android:id="@+id/week3_weather"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="weather"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week3_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10℃"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week3_wind"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="wind"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week3_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4月25日"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/line_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/week4_week"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="今天"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/week4_icon1"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <ImageView
+                android:id="@+id/week4_icon2"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <TextView
+                android:id="@+id/week4_weather"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="weather"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week4_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10℃"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week4_wind"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="wind"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week4_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4月25日"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/line_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/week5_week"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="今天"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/week5_icon1"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <ImageView
+                android:id="@+id/week5_icon2"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <TextView
+                android:id="@+id/week5_weather"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="weather"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week5_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10℃"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week5_wind"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="wind"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week5_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4月25日"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/line_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/week6_week"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="今天"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/week6_icon1"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <ImageView
+                android:id="@+id/week6_icon2"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <TextView
+                android:id="@+id/week6_weather"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="weather"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week6_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10℃"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week6_wind"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="wind"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week6_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4月25日"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_7"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/line_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/week7_week"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="今天"
+                android:textColor="@color/colorWhite" />
+
+            <ImageView
+                android:id="@+id/week7_icon1"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <ImageView
+                android:id="@+id/week7_icon2"
+                android:layout_width="28dp"
+                android:layout_height="0dip"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/wind_power_pic" />
+
+            <TextView
+                android:id="@+id/week7_weather"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="weather"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week7_temp"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10℃"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week7_wind"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="wind"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/week7_date"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4月25日"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <com.lingzhuo.coolweather01.view.TempTrendView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="bottom" />
+
+</LinearLayout>

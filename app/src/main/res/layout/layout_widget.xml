@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/textView_widget_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:25"
+            android:textColor="@color/colorWhite"
+            android:textSize="50dp" />
+
+        <ImageView
+            android:id="@+id/imageView_widget_location"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/textView_widget_time"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:src="@mipmap/widget_local" />
+
+        <TextView
+            android:id="@+id/textView_widget_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_widget_time"
+            android:layout_toRightOf="@+id/imageView_widget_location"
+            android:text="位置"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView_widget_weather_ic1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/wind_power_pic" />
+
+
+        <TextView
+            android:id="@+id/textView_widget_avgTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:text="30℃ 阴"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_widget_lowHighTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView_widget_avgTemp"
+            android:text="18/30℃"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView_widget_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView_widget_lowHighTemp"
+            android:text="4-24 星期日"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

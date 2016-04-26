@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg_pic"
+    android:orientation="vertical"
+    tools:context="com.lingzhuo.coolweather01.activity.MainActivity">
+
+    <com.lingzhuo.coolweather01.view.MytitleView
+        android:id="@+id/myTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.lingzhuo.coolweather01.view.MytitleView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#05101F">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_today"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView_today"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@mipmap/buttom__pic"
+                />
+            <TextView
+                android:id="@+id/textView_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBottomWord"
+                android:text="今日天气"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_week"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView_week"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@mipmap/buttom_not_pic"
+                />
+            <TextView
+                android:id="@+id/textView_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBottomWord_Not"
+                android:text="一周天气"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
